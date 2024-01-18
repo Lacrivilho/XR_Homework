@@ -3,7 +3,22 @@ guid: f12e9a673d987a444a1b749808ec446e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jacaranda_tree_branches
+    second: {fileID: 2100000, guid: 4a95fec60bc000e4897fe5cb172f4a73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jacaranda_tree_leaves
+    second: {fileID: 2100000, guid: 967ff3eabd9d3af43950210a1af33380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jacaranda_tree_trunk
+    second: {fileID: 2100000, guid: db883d09096a2d045aa170ef72b36227, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
