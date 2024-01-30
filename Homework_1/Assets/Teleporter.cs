@@ -8,7 +8,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class Teleporter : MonoBehaviour
 {
     public InputActionReference teleportAction;
-    public XRController rightController;
     public Transform XROrigin;
     public Vector3 roomPosition;
     public Vector3 balconyPosition;

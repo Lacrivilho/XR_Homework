@@ -12,7 +12,6 @@ public class Quit : MonoBehaviour
         action.action.Enable();
         action.action.performed += (ctx) =>
         {
-            Debug.Log("Test");
             #if UNITY_EDITOR
                 UnityEditor.EditorApplication.isPlaying = false;
             #else
