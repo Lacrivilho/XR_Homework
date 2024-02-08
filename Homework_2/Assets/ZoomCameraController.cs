@@ -11,15 +11,7 @@ public class ZoomCameraController : MonoBehaviour
     {
         if (origin != null && target != null)
         {
-            // Get the direction vector from origin to target
-            //Vector3 directionToTarget = target.position - origin.position;
-
-            // Calculate the rotation to face the target
-            //Quaternion targetRotation = Quaternion.LookRotation(directionToTarget, Vector3.up);
-            transform.LookAt(target, origin.transform.localRotation.eulerAngles);
-
-            // Apply the rotation with adjustment around the vector
-            //origin.rotation = Quaternion.Euler(targetRotation.eulerAngles);
+            transform.LookAt(target, Vector3.up);
         }
         else
         {

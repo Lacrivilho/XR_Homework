@@ -19,9 +19,6 @@ public class LensController : MonoBehaviour
 
             var rotation = Quaternion.LookRotation(worldProjection);
             transform.rotation = Quaternion.Slerp(transform.rotation, rotation, 1);
-
-            // Copy the position from the reference object
-            //Transform.position = referenceObject.position;
         }
         else
         {
