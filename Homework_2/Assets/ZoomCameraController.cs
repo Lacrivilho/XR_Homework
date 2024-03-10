@@ -6,12 +6,13 @@ public class ZoomCameraController : MonoBehaviour
 {
     public Transform origin; // Parent object (e.g., player or origin point)
     public Transform target; // Target object to rotate towards
+    public Transform rotationTarget;
 
     void Update()
     {
         if (origin != null && target != null)
         {
-            transform.LookAt(target, Vector3.up);
+            transform.LookAt(target, rotationTarget.forward);
         }
         else
         {
